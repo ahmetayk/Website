@@ -1,0 +1,197 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+
+/* Hero Section */
+
+
+.img-developer {
+    background-image: url(images/developer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-header {
+   
+    color: #fff;
+    padding: 50px 25%;
+    padding-bottom: 0;
+    text-align: left;
+    
+}
+
+.big-title {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.small-title {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* Header Section */
+
+.header-container {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-text-small {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.header-text-big {
+    font-size: 96px;
+    font-weight: 700;
+}
+
+/* Work Section */
+
+.work-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 50px;
+    padding: 100px 200px;
+}
+
+.work-content {
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.2);
+    border-radius: 20px;
+    
+}
+
+.work-content img {
+    width: 100%;
+}
+
+.work-content h2 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding: 15px;
+    text-align: left;
+}
+
+.work-content p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Contact - About Section */
+
+.contact-about {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.contact-container {
+    background-color: #515603;
+    padding: 50px 100px;
+    color: #fff;
+}
+
+.contact-about h1 {
+    font-size: 34px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.contact-about p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.contact-container .email {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.about-container {
+    background-color: #722300;
+    padding: 50px 100px;
+    color: #fff;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 800px) {
+    .big-title {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 2px;
+        padding-top: 2px;
+    }
+    
+    .small-title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 2px;
+        padding-top: 2px;
+    }
+
+    .work-container{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 401px) {
+    .big-title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 2px;
+        padding-top: 2px;
+    }
+    
+    .small-title {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 2px;
+        padding-top: 2px;
+    }
+
+    .work-container{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+}
